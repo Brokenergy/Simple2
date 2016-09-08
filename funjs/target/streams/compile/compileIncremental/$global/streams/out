@@ -1,0 +1,42 @@
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set(C:\Users\Reza\Documents\COMP332\funjs\src\funjs\FunJSTree.scala, C:\Users\Reza\Documents\COMP332\funjs\src\funjs\Main.scala, C:\Users\Reza\Documents\COMP332\funjs\src\funjs\SyntaxAnalysis.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(C:\Users\Reza\Documents\COMP332\funjs\src\funjs\FunJSTree.scala, C:\Users\Reza\Documents\COMP332\funjs\src\funjs\Main.scala, C:\Users\Reza\Documents\COMP332\funjs\src\funjs\SyntaxAnalysis.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(C:\Users\Reza\Documents\COMP332\funjs\src\funjs\FunJSTree.scala, C:\Users\Reza\Documents\COMP332\funjs\src\funjs\Main.scala, C:\Users\Reza\Documents\COMP332\funjs\src\funjs\SyntaxAnalysis.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(C:\Users\Reza\Documents\COMP332\funjs\src\funjs\FunJSTree.scala, C:\Users\Reza\Documents\COMP332\funjs\src\funjs\Main.scala, C:\Users\Reza\Documents\COMP332\funjs\src\funjs\SyntaxAnalysis.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 3 sources: invalidated sources (3) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 3 Scala sources to C:\Users\Reza\Documents\COMP332\funjs\target\scala-2.11\classes...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.12:component from component compiler for Scala 2.11.2[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.12:component from component compiler for Scala 2.11.2[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 5ee31602, interfacing (CompilerInterface) with Scala compiler version 2.11.2[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-deprecation[0m
+[0m[[0mdebug[0m] [0m	-feature[0m
+[0m[[0mdebug[0m] [0m	-unchecked[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	C:\Program Files\Java\jdk1.7.0_79\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_79\jre\classes;C:\Users\Reza\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.2.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Reza\Documents\COMP332\funjs\target\scala-2.11\classes;C:\Users\Reza\.ivy2\cache\com.googlecode.kiama\kiama_2.11\jars\kiama_2.11-1.6.0.jar;C:\Users\Reza\.ivy2\cache\com.google.code.findbugs\jsr305\jars\jsr305-2.0.3.jar;C:\Users\Reza\.ivy2\cache\com.google.guava\guava\bundles\guava-17.0.jar;C:\Users\Reza\.ivy2\cache\org.bitbucket.inkytonik.dsinfo\dsinfo_2.11\jars\dsinfo_2.11-0.4.0.jar;C:\Users\Reza\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.2.jar;C:\Users\Reza\.ivy2\cache\org.bitbucket.inkytonik.dsprofile\dsprofile_2.11\jars\dsprofile_2.11-0.4.0.jar;C:\Users\Reza\.ivy2\cache\org.rogach\scallop_2.11\jars\scallop_2.11-0.9.5.jar;C:\Users\Reza\.ivy2\cache\jline\jline\jars\jline-2.11.jar;C:\Users\Reza\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar[0m
+[0m[[31merror[0m] [0mC:\Users\Reza\Documents\COMP332\funjs\src\funjs\SyntaxAnalysis.scala:77: type mismatch;[0m
+[0m[[31merror[0m] [0m found   : funjs.FunJSTree.Exp[0m
+[0m[[31merror[0m] [0m required: funjs.FunJSTree.Type[0m
+[0m[[31merror[0m] [0m        exp ~ identifier ^^ {case t ~ i => IdnDef (i,t)}[0m
+[0m[[31merror[0m] [0m                                                     ^[0m
+[0m[[31merror[0m] [0mC:\Users\Reza\Documents\COMP332\funjs\src\funjs\SyntaxAnalysis.scala:38: polymorphic expression cannot be instantiated to expected type;[0m
+[0m[[31merror[0m] [0m found   : [U >: funjs.FunJSTree.Exp](q: => SyntaxAnalysis.this.Parser[U])SyntaxAnalysis.this.Parser[U][0m
+[0m[[31merror[0m] [0m required: SyntaxAnalysis.this.PackratParser[funjs.FunJSTree.Exp][0m
+[0m[[31merror[0m] [0m		exp ~> "->" ~> exp |[0m
+[0m[[31merror[0m] [0m		                   ^[0m
+[0m[[31merror[0m] [0mtwo errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompileIncremental[0m) Compilation failed[0m
